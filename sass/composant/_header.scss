@@ -1,0 +1,59 @@
+header{
+ 
+    #photos{
+        height: 300px;
+    }
+    
+    img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }   
+    
+    li {
+        list-style:none !important;
+        color:black;
+        padding:10px;
+        font-size:20px;
+        text-decoration:none;
+        }
+    nav ul {
+        display:flex;
+        justify-content: space-evenly;    
+        background-color: #e01844;
+        padding:0;
+        margin-top:-50px;
+    }
+    nav ul li {
+        line-height:20px;
+        float:left;
+        background-color: #e01844;
+        border-radius: 20px;
+
+    }
+    nav ul li a {
+        color:#9feab6;
+        padding:10px;
+        font-size:20px;
+        text-decoration:none;
+    }
+    li a:hover {
+        color: green;
+    }
+    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+        z-index:99999;
+        display:list-item !important;
+        position:absolute;
+        margin-top:10px;
+        margin-left:-10px;
+        border: solid #e01844;
+        border-radius:20px;
+        list-style: none;
+
+    }
+}
+
+body{
+    background-image: url("images/crepe_saumon.jpg");
+}

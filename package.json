@@ -1,0 +1,21 @@
+{
+  "name": "les_tulipes",
+  "version": "1.0.0",
+  "description": "site vitrine du restaurant les tulipes",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "keywords": [
+    "restaurant",
+    "crêperie",
+    "hollandaise\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[\u001b[\u001b[\u001b[C\u001b\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
+    "hollandaise",
+    "sarlat"
+  ],
+  "author": "justine fidel",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.34.0"
+  }
+}
