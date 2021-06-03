@@ -30,3 +30,21 @@ footer{
         }
     }
 }
+
+            /*****style mobile*****/
+
+
+@media screen and (min-width:320px) and (max-width:750px){
+    footer{
+        ul {
+            padding:0;
+            li{
+                font-size:15px;
+                a{
+                    font-size : 20px;
+                }
+            }
+        }
+
+    } 
+}
