@@ -104,6 +104,9 @@ main #presentation span {
 }
 main #galerie_photo {
   display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
 }
 main #galerie_photo .image_galerie figure {
   display: flex;

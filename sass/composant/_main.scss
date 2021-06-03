@@ -40,6 +40,9 @@ main{
     
     #galerie_photo{
         display:flex;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: center;
         
         .image_galerie figure{
             display: flex;
@@ -96,6 +99,10 @@ main{
     }
        
 }
+
+
+
+
     
 
    
