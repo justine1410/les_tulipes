@@ -136,6 +136,9 @@ main #galerie_photo {
   width: 80%;
   justify-content: center;
 }
+main #galerie_photo .image_galerie {
+  margin: 20px;
+}
 main #galerie_photo .image_galerie figure {
   display: flex;
   flex-direction: column;
@@ -199,7 +202,7 @@ main .container h3 {
 }
 footer {
   height: 80px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 footer img {
   height: 80px;
