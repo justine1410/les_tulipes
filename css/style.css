@@ -3,10 +3,23 @@ header {
   /* Rend le menu déroulant caché par défaut */
 }
 header #photos {
-  height: 300px;
+  background-color: white;
+  height: 140px;
+  display: flex;
 }
-header img {
-  height: 250px;
+header #photos #logos {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+header #photos #logos img {
+  height: 100%;
+}
+header #photos #poff {
+  width: 100%;
+}
+header #photos #poff img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -15,7 +28,8 @@ header nav ul {
   justify-content: space-evenly;
   background-color: #e01844;
   padding: 0;
-  margin-top: -50px;
+  margin-top: 0;
+  z-index: 1;
 }
 header nav ul li {
   list-style: none !important;
@@ -66,24 +80,29 @@ header nav ul li:hover ul {
   }
 }
 body {
-  background-color: yellowgreen;
   margin: 0;
 }
 
 main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+main #derriere {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-main #logo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+main #derriere img {
+  top: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
-main #logo img {
-  height: 80px;
-}
-main #presentation {
+main #derriere #presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,20 +111,21 @@ main #presentation {
   width: 80%;
   border: solid #e01844;
   border-radius: 20px;
-  background-color: #9feab6;
-  box-shadow: 10px 5px 5px #e01844;
+  background-color: #e01844;
+  color: #9feab6;
+  z-index: 1;
 }
-main #presentation p {
+main #derriere #presentation p {
   text-align: center;
   font-size: 20px;
 }
-main #presentation span {
+main #derriere #presentation span {
   font-style: italic;
 }
 main #galerie_photo {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 80%;
   justify-content: center;
 }
 main #galerie_photo .image_galerie figure {
@@ -129,7 +149,7 @@ main .contact {
   justify-content: center;
   margin-left: 8%;
   margin-top: 20px;
-  width: 80%;
+  width: 120%;
   border: solid #e01844;
   border-radius: 20px;
   background-color: #9feab6;
@@ -141,6 +161,10 @@ main .contact p {
 }
 main .container {
   margin-bottom: 50px;
+}
+main .container img {
+  height: 500px;
+  object-fit: contain;
 }
 main .container .carousel-control-prev-icon {
   position: absolute;

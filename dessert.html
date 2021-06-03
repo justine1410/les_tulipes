@@ -14,9 +14,18 @@
 <body>
     <header>
         <div id="photos">
-            <img src="images/crepe_banane.jpg" alt="">
+            <div id="logos">
+                <img class="logo" src="images/logo.png" alt="">
+            </div>
+            <div id="poff">
+                <img src="images/galerie_photo/cuisson_poff.jpg" alt="">
+
+
+            </div>
         </div>
+
         <nav>
+
             <ul>
                 <li><a href="index.html">ACCUEIL</a></li>
                 <li>NOTRE CARTE
@@ -26,6 +35,7 @@
                         <li><a href="dessert.html">Nos desserts</a></li>
                         <li><a href="enfant.html">Menu enfants</a></li>
                     </ul>
+                
                 </li>
                 <li><a href="galerie_photos.html">GALERIE PHOTOS</a></li>
                 <li><a href="presse.html">LA PRESSE PARLE DE NOUS</a></li>
@@ -35,70 +45,66 @@
     </header>
 
     <main>
-        <div id="logo">
-            <img  src="images/logo.png" alt="">
-        </div>
+            <div class="container">
+                <div id="myCarousel" class="carousel slide " data-ride="carousel" data-interval="3600000">
+                    <h3>Nos dessert</h3>
+        
+                <!-- Carrousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                        <img src="images/menu/crepes_sucrees/carte_Page_14.jpg" alt="Carrousel slide 1" class="d-block w-100">
+                    </div>
 
-        <div class="container">
-            <div id="myCarousel" class="carousel slide " data-ride="carousel" data-interval="3600000">
-                <h3>Nos dessert</h3>
-      
-              <!-- Carrousel -->
-              <div class="carousel-inner">
-                  <div class="carousel-item active" >
-                      <img src="images/menu/crepes_sucrees/carte_Page_14.jpg" alt="Carrousel slide 1" class="d-block w-100">
-                  </div>
+                    <div class="carousel-item">
+                        <img src="images/menu/crepes_sucrees/carte_Page_15.jpg" alt="Carrousel slide 2" class="d-block w-100">
+                    </div>
 
-                  <div class="carousel-item">
-                      <img src="images/menu/crepes_sucrees/carte_Page_15.jpg" alt="Carrousel slide 2" class="d-block w-100">
-                  </div>
+                    <div class="carousel-item">
+                        <img src="images/menu/crepes_sucrees/carte_Page_16.jpg" alt="Carrousel slide 2" class="d-block w-100">
+                    </div>
 
-                  <div class="carousel-item">
-                      <img src="images/menu/crepes_sucrees/carte_Page_16.jpg" alt="Carrousel slide 2" class="d-block w-100">
-                  </div>
+                    <div class="carousel-item" >
+                        <img src="images/menu/crepes_sucrees/carte_Page_17.jpg" alt="Carrousel slide 2" class="d-block w-100">
+                    </div>
 
-                  <div class="carousel-item" >
-                      <img src="images/menu/crepes_sucrees/carte_Page_17.jpg" alt="Carrousel slide 2" class="d-block w-100">
-                  </div>
+                    <div class="carousel-item">
+                        <img src="images/menu/crepes_sucrees/carte_Page_18.jpg" alt="Carrousel slide 2" class="d-block w-100">
+                    </div>
 
-                  <div class="carousel-item">
-                      <img src="images/menu/crepes_sucrees/carte_Page_18.jpg" alt="Carrousel slide 2" class="d-block w-100">
-                  </div>
+                    <div class="carousel-item">
+                        <img src="images/menu/crepes_sucrees/carte_Page_19.jpg" alt="Carrousel slide 2" class="d-block w-100">
+                    </div>   
+                    
+                    <div class="carousel-item" >
+                        <img src="images/menu/desserts/carte_Page_22.jpg" alt="Carrousel slide 3" class="d-block w-100">
+                    </div>
 
-                  <div class="carousel-item">
-                      <img src="images/menu/crepes_sucrees/carte_Page_19.jpg" alt="Carrousel slide 2" class="d-block w-100">
-                  </div>   
-                  
-                  <div class="carousel-item" >
-                    <img src="images/menu/desserts/carte_Page_22.jpg" alt="Carrousel slide 3" class="d-block w-100">
-                  </div>
+                    <div class="carousel-item" >
+                        <img src="images/menu/desserts/carte_Page_23.jpg" alt="Carrousel slide 3" class="d-block w-100">
+                    </div>
 
-                  <div class="carousel-item" >
-                      <img src="images/menu/desserts/carte_Page_23.jpg" alt="Carrousel slide 3" class="d-block w-100">
-                  </div>
+                    <div class="carousel-item">
+                        <img src="images/menu/desserts/carte_Page_21.jpg" alt="Carrousel slide 2" class="d-block w-100">
+                    </div>
 
-                  <div class="carousel-item">
-                    <img src="images/menu/desserts/carte_Page_21.jpg" alt="Carrousel slide 2" class="d-block w-100">
-                  </div>
+                    <div class="carousel-item ">
+                        <img src="images/menu/desserts/carte_Page_20.jpg" alt="Carrousel slide 1" class="d-block w-100">
+                    </div>
 
-                  <div class="carousel-item ">
-                    <img src="images/menu/desserts/carte_Page_20.jpg" alt="Carrousel slide 1" class="d-block w-100">
-                  </div>
+                </div>
+        
+                <!-- Contrôles -->
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Précédent</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Suivant</span>
+                </a>
 
-              </div>
-      
-              <!-- Contrôles -->
-              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Précédent</span>
-              </a>
-              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Suivant</span>
-              </a>
-
+                </div>
             </div>
-        </div>
     </main>
     <footer>
         <ul>
