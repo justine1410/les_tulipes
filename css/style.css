@@ -27,11 +27,16 @@ header nav ul li {
 header nav ul li a:hover {
   color: green;
 }
+header nav ul li:hover {
+  color: green;
+  text-decoration: underline;
+}
 header nav ul li {
   line-height: 20px;
   float: left;
   background-color: #e01844;
   border-radius: 20px;
+  color: #9feab6;
 }
 header nav ul li a {
   color: #9feab6;
@@ -58,17 +63,6 @@ header nav ul li:hover ul {
 @media screen and (min-width: 320px) and (max-width: 750px) {
   header nav ul {
     flex-wrap: wrap;
-  }
-  header nav ul li:active ul {
-    /* Affiche la dropNav au survol de la souris avec la class .drop */
-    z-index: 99999;
-    display: list-item !important;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: -10px;
-    border: solid #e01844;
-    border-radius: 20px;
-    list-style: none;
   }
 }
 body {
