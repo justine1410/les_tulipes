@@ -27,7 +27,7 @@ header{
     nav ul {
         display:flex;
         justify-content: space-evenly;    
-        background-color: #e01844;
+        background-color: #B51235;
         padding:0;
         margin-top:0;
         
@@ -40,11 +40,11 @@ header{
             font-size:20px;
             text-decoration:none;
             a:hover {
-                color: green;
+                color: white;
             }
         }
         li:hover{
-            color: green;
+            color: white;
             text-decoration: underline;
         }
     }
@@ -52,7 +52,7 @@ header{
     nav ul li {
         line-height:20px;
         float:left;
-        background-color: #e01844;
+        background-color: #B51235;
         border-radius: 20px;
         color:#9feab6;
 
@@ -72,7 +72,7 @@ header{
         position:absolute;
         margin-top:10px;
         margin-left:-10px;
-        border: solid #e01844;
+        border: solid #B51235;
         border-radius:20px;
         list-style: none;
     }
