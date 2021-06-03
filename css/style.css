@@ -78,6 +78,9 @@ header nav ul li:hover ul {
   header nav ul {
     flex-wrap: wrap;
   }
+  header #photo {
+    height: 100px;
+  }
 }
 body {
   margin: 0;
@@ -112,6 +115,7 @@ main #derriere #presentation {
   border: solid #e01844;
   border-radius: 20px;
   background-color: #e01844;
+  box-shadow: 10px 5px 5px #9feab6;
   color: #9feab6;
   z-index: 1;
 }
@@ -180,6 +184,15 @@ main .container h3 {
   text-align: center;
 }
 
+/*****style mobile*****/
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  main {
+    height: 800px;
+  }
+  main img {
+    object-fit: cover;
+  }
+}
 footer {
   height: 80px;
   margin-top: 50px;
