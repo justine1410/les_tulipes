@@ -126,6 +126,10 @@ main #derriere #presentation p {
 main #derriere #presentation span {
   font-style: italic;
 }
+main #derriere #presentation a {
+  color: #39FF14;
+  font-weight: bold;
+}
 main #galerie_photo {
   display: flex;
   flex-wrap: wrap;
