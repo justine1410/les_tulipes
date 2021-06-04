@@ -108,15 +108,12 @@ main #derriere #presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin-top: 20px;
   width: 80%;
-  border: solid #B51235;
   border-radius: 20px;
   background-color: #B51235;
   box-shadow: 10px 5px 5px #9feab6;
   color: #9feab6;
-  z-index: 1;
 }
 main #derriere #presentation p {
   text-align: center;
@@ -171,20 +168,121 @@ main .contact p {
   font-size: 20px;
 }
 main .container {
-  margin-bottom: 50px;
+  width: 70%;
+  position: relative;
+  top: 100px;
 }
 main .container img {
   height: 500px;
   object-fit: contain;
 }
+main .container h2 {
+  margin: 20px;
+  text-align: center;
+}
+main .container .menu {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+main .container .menu .choix {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 20px;
+  width: 90%;
+  background-color: #9feab6;
+  padding: 10px;
+}
+main .container .menu .choix .title p {
+  margin: 0;
+  font-weight: bold;
+}
+main .container .menu .choix .prix p {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-style: italic;
+}
+main .container .menu .choix .prix p span {
+  position: relative;
+  top: -10px;
+}
+main .container .menu .portion {
+  margin: 5px;
+  border-radius: 20px;
+  width: 30%;
+  background-color: #9feab6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-left: 60%;
+}
+main .container .menu .portion .type_portion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .container .menu .portion .type_portion p {
+  margin: 0;
+}
+main .container .menu .choix_poff {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 20px;
+  width: 90%;
+  background-color: #9feab6;
+  padding: 10px;
+}
+main .container .menu .choix_poff .prix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .menu .choix_poff .prix p {
+  margin: 0;
+  font-style: italic;
+}
+main .container .menu .choix_poff .prix .choix_portion {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+main .container .menu .choix_poff .title p {
+  margin: 0;
+  font-weight: bold;
+}
+main .container .menu .commentaire {
+  margin: 5px;
+  border-radius: 20px;
+  width: 90%;
+  background-color: #9feab6;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .container .menu .commentaire .title p {
+  margin: 0;
+  font-weight: bold;
+}
+main .container .menu .commentaire .prix p {
+  margin: 0;
+  font-style: italic;
+}
 main .container .carousel-control-prev-icon {
   position: absolute;
-  left: -20%;
+  left: -30%;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 main .container .carousel-control-next-icon {
   position: absolute;
-  right: -20%;
+  right: -30%;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 main .container h3 {
@@ -202,7 +300,7 @@ main .container h3 {
 }
 footer {
   height: 80px;
-  margin-top: 80px;
+  margin-top: 270px;
 }
 footer img {
   height: 80px;

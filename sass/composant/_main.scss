@@ -1,7 +1,6 @@
 
  body{
-    margin: 0;
-    
+    margin: 0;   
    
 } 
  
@@ -28,15 +27,12 @@ main{
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             margin-top:20px;
             width: 80%;
-            border: solid #B51235;
             border-radius:20px;
-            background-color:#B51235;
-            box-shadow: 10px 5px 5px #9feab6;
-            color: #9feab6;
-                z-index: 1;
+            background-color:$color_primary;
+            box-shadow: 10px 5px 5px $color_secondary;
+            color: $color_secondary;
             p{
                 text-align: center;
                 font-size: 20px;;
@@ -84,11 +80,11 @@ main{
         margin-left: 8%;
         margin-top:20px;
         width: 120%;
-        border: solid #B51235;
+        border: solid $color_primary;
         border-radius:20px;
-        background-color:#B51235;
-        box-shadow: 10px 5px 5px #9feab6;
-        color:#9feab6 ;
+        background-color:$color_primary;
+        box-shadow: 10px 5px 5px $color_secondary;
+        color:$color_secondary ;
         p{
             text-align: center;
             font-size: 20px;;
@@ -97,20 +93,132 @@ main{
     }
 
     .container{
-        margin-bottom:50px;
+        width: 70%;
+        position: relative;
+        top:100px;
         img{
             height: 500px;
             object-fit: contain;
         }
+        h2{
+            margin: 20px;
+            text-align: center;
+        }
+        .menu{
+            background-color: $color_primary_light;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 20px;
+            padding:20px;
+
+            .choix{
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+                border-radius: 20px;
+                width: 90%;
+                background-color: $color_secondary;
+                padding:10px;
+                .title p{
+                    margin:0;
+                    font-weight: bold;
+                }
+                .prix p{
+                    display: flex;
+                    justify-content: space-between;
+                    margin:0;
+                    font-style: italic;
+                    span{
+                        position: relative;
+                        top: -10px;
+                        
+                    }
+                }
+            }
+            .portion{
+                margin: 5px;
+                border-radius: 20px;
+                width: 30%;
+                background-color: $color_secondary;
+                padding:10px;
+                display: flex;
+                justify-content: space-between;
+                margin-left: 200px;
+                margin-left: 60%;
+                .type_portion{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+            .choix_poff{
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+                border-radius: 20px;
+                width: 90%;
+                background-color: $color_secondary;
+                padding:10px;
+                .prix{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    p{
+                       
+                        margin:0;
+                        font-style: italic;
+                    }
+                    .choix_portion{
+                        display: flex;
+                        width: 30%;
+                        justify-content:space-between;
+                        
+                        
+                    }
+                }
+                .title p{
+                    margin:0;
+                    font-weight: bold;
+                }
+                
+                
+                
+            }
+            .commentaire{
+                margin: 5px;
+                border-radius: 20px;
+                width: 90%;
+                background-color: $color_secondary;
+                padding:10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title p{
+                    margin:0;
+                    font-weight: bold;
+                }
+                .prix p{
+                    margin:0;
+                    font-style: italic;
+                }
+                
+            }
+
+        }
+      
         .carousel-control-prev-icon {
             position: absolute;
-            left:-20%;
+            left:-30%;
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
            }
            
         .carousel-control-next-icon {
             position: absolute;
-            right: -20%;
+            right: -30%;
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
         }
         
