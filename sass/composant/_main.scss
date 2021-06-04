@@ -124,17 +124,16 @@ main{
                     margin:0;
                     font-weight: bold;
                 }
-                .prix p{
+                .description{
                     display: flex;
                     justify-content: space-between;
-                    margin:0;
-                    font-style: italic;
-                    span{
-                        position: relative;
-                        top: -10px;
-                        
+                    p{
+                        margin:0;
+                        font-style: italic;
                     }
+
                 }
+                
             }
             .portion{
                 margin: 5px;
@@ -201,7 +200,7 @@ main{
                     margin:0;
                     font-weight: bold;
                 }
-                .prix p{
+                .description p{
                     margin:0;
                     font-style: italic;
                 }

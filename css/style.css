@@ -201,15 +201,13 @@ main .container .menu .choix .title p {
   margin: 0;
   font-weight: bold;
 }
-main .container .menu .choix .prix p {
+main .container .menu .choix .description {
   display: flex;
   justify-content: space-between;
+}
+main .container .menu .choix .description p {
   margin: 0;
   font-style: italic;
-}
-main .container .menu .choix .prix p span {
-  position: relative;
-  top: -10px;
 }
 main .container .menu .portion {
   margin: 5px;
@@ -271,7 +269,7 @@ main .container .menu .commentaire .title p {
   margin: 0;
   font-weight: bold;
 }
-main .container .menu .commentaire .prix p {
+main .container .menu .commentaire .description p {
   margin: 0;
   font-style: italic;
 }
