@@ -49,29 +49,21 @@ main{
     
     }
     
-    #galerie_photo{
-        display:flex;
-        flex-wrap: wrap;
-        width: 80%;
-        justify-content: center;
-        .image_galerie{
-            margin:20px;
-            figure{
+    .image_galerie{
+        margin:20px;
+            figcaption{
                 display: flex;
-                flex-direction:column;
+                justify-content: center;
                 align-items: center;
-                & img{
-                    width: 200px;
-                    height: 200px;
-                    object-fit: cover;
-                    margin: 5px;
-                }
-                & p{
-                    margin: 0;
+                p{
+                    margin-top:20px;
+                    margin-bottom: -20px;
+                    font-size: 30px;
+                    font-weight: bold;
                 }
             }
-        }
     }
+    
 
     .contact{
         display: flex;
@@ -80,7 +72,6 @@ main{
         justify-content: center;
         margin-left: 8%;
         margin-top:20px;
-        width: 120%;
         border: solid $color_primary;
         border-radius:20px;
         background-color:$color_primary;

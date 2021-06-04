@@ -127,28 +127,19 @@ main #derriere #presentation a {
   color: #39FF14;
   font-weight: bold;
 }
-main #galerie_photo {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  justify-content: center;
-}
-main #galerie_photo .image_galerie {
+main .image_galerie {
   margin: 20px;
 }
-main #galerie_photo .image_galerie figure {
+main .image_galerie figcaption {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-main #galerie_photo .image_galerie figure img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin: 5px;
-}
-main #galerie_photo .image_galerie figure p {
-  margin: 0;
+main .image_galerie figcaption p {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 main .contact {
   display: flex;
@@ -157,7 +148,6 @@ main .contact {
   justify-content: center;
   margin-left: 8%;
   margin-top: 20px;
-  width: 120%;
   border: solid #B51235;
   border-radius: 20px;
   background-color: #B51235;
