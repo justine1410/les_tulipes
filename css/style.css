@@ -109,6 +109,7 @@ main #derriere #presentation {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: -150px;
   width: 80%;
   border-radius: 20px;
   background-color: #B51235;
@@ -272,6 +273,31 @@ main .container .menu .commentaire .title p {
 main .container .menu .commentaire .description p {
   margin: 0;
   font-style: italic;
+}
+main .container .menu .choix_enfant {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 20px;
+  width: 90%;
+  background-color: #9feab6;
+  padding: 10px;
+  align-items: center;
+}
+main .container .menu .choix_enfant .title p {
+  font-weight: bold;
+}
+main .container .menu .choix_enfant .description {
+  display: flex;
+  justify-content: space-between;
+}
+main .container .menu .choix_enfant .description p {
+  margin: 0;
+  font-style: italic;
+}
+main .container .menu .choix_enfant .prix {
+  font-weight: bold;
+  margin-top: 40px;
 }
 main .container .carousel-control-prev-icon {
   position: absolute;
