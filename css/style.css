@@ -205,7 +205,8 @@ main .container .menu .portion {
   margin: 5px;
   border-radius: 20px;
   width: 30%;
-  background-color: #9feab6;
+  background-color: #B51235;
+  color: #9feab6;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -226,7 +227,8 @@ main .container .menu .choix_poff {
   margin: 5px;
   border-radius: 20px;
   width: 90%;
-  background-color: #9feab6;
+  background-color: #B51235;
+  color: #9feab6;
   padding: 10px;
 }
 main .container .menu .choix_poff .prix {
@@ -271,7 +273,8 @@ main .container .menu .choix_enfant {
   margin: 5px;
   border-radius: 20px;
   width: 90%;
-  background-color: #9feab6;
+  background-color: #B51235;
+  color: #9feab6;
   padding: 10px;
   align-items: center;
 }

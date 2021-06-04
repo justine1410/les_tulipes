@@ -133,7 +133,8 @@ main{
                 margin: 5px;
                 border-radius: 20px;
                 width: 30%;
-                background-color: $color_secondary;
+                background-color: $color_primary;
+                color: $color_secondary;
                 padding:10px;
                 display: flex;
                 justify-content: space-between;
@@ -154,7 +155,8 @@ main{
                 margin: 5px;
                 border-radius: 20px;
                 width: 90%;
-                background-color: $color_secondary;
+                background-color: $color_primary;
+                color: $color_secondary;
                 padding:10px;
                 .prix{
                     display: flex;
@@ -206,7 +208,8 @@ main{
                 margin: 5px;
                 border-radius: 20px;
                 width: 90%;
-                background-color: $color_secondary;
+                background-color: $color_primary;
+                color: $color_secondary;
                 padding:10px;
                 align-items: center;
                 .title p{
