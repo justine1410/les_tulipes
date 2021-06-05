@@ -109,7 +109,7 @@ main #derriere #presentation {
   flex-direction: column;
   align-items: center;
   margin-top: 140px;
-  margin-bottom: -100px;
+  margin-bottom: 80px;
   width: 80%;
   border-radius: 20px;
   background-color: #B51235;
@@ -161,7 +161,8 @@ main .contact p {
 main .container {
   width: 70%;
   position: relative;
-  top: 100px;
+  top: 50px;
+  margin-bottom: 100px;
 }
 main .container img {
   object-fit: contain;
@@ -306,6 +307,144 @@ main .container .carousel-control-next-icon {
 main .container h3 {
   text-align: center;
 }
+main .poff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px;
+}
+main .poff .present_poff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .poff .present_poff h2 {
+  margin-bottom: 60px;
+}
+main .poff .present_poff .advocaat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+main .poff .present_poff .advocaat p {
+  margin: 0;
+  font-style: italic;
+}
+main .poff img {
+  width: 49%;
+  height: 500px;
+  margin: 20px;
+  object-fit: cover;
+}
+main .poff .choix {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+main .poff .choix .portion {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  position: relative;
+  left: 63%;
+}
+main .poff .choix .portion p {
+  margin: 0;
+  font-weight: bold;
+}
+main .poff .choix h4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+main .poff .choix .content {
+  display: flex;
+  justify-content: space-between;
+}
+main .poff .choix .content p {
+  margin: 0;
+}
+main .poff .choix .content .descript {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+main .poff .choix .content .quantite {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+}
+main .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px;
+}
+main .menu .present_poff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .menu .present_poff h2 {
+  margin-bottom: 60px;
+}
+main .menu img {
+  width: 49%;
+  height: 500px;
+  margin: 20px;
+  object-fit: cover;
+}
+main .menu p {
+  text-align: center;
+}
+main .menu .choix {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+main .menu .choix .portion {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  position: relative;
+  left: 63%;
+}
+main .menu .choix .portion p {
+  margin: 0;
+  font-weight: bold;
+}
+main .menu .choix h4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+main .menu .choix .content {
+  display: flex;
+  justify-content: space-between;
+}
+main .menu .choix .content p {
+  margin: 0;
+}
+main .menu .choix .content .descript {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-style: italic;
+}
+main .menu .choix .content .quantite {
+  display: flex;
+  justify-content: space-around;
+}
+main .menu .choix .commentaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
 
 /*****style mobile*****/
 @media screen and (min-width: 320px) and (max-width: 750px) {
@@ -318,7 +457,6 @@ main .container h3 {
 }
 footer {
   height: 80px;
-  margin-top: 270px;
 }
 footer img {
   height: 80px;

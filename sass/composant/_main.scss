@@ -28,7 +28,7 @@ main{
             flex-direction: column;
             align-items: center;
             margin-top:140px;
-            margin-bottom: -100px;
+            margin-bottom: 80px;
             width: 80%;
             border-radius:20px;
             background-color:$color_primary;
@@ -87,7 +87,8 @@ main{
     .container{
         width: 70%;
         position: relative;
-        top:100px;
+        top:50px;
+        margin-bottom: 100px;
         img{
             object-fit: contain;
             height: 500px;
@@ -231,6 +232,8 @@ main{
 
             }
 
+           
+
         }
       
         .carousel-control-prev-icon {
@@ -249,7 +252,157 @@ main{
         text-align: center;
         }
     }
+   
+    .poff{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding: 5px;
+        .present_poff{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2{
+                margin-bottom: 60px;
+            }
+            .advocaat{
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                width: 100%;
+                p{
+                    margin:0;
+                    font-style: italic;
+                }
+            }
+        }
+        img{
+            width: 49%;
+            height: 500px;
+            margin:20px;
+            object-fit: cover;
+        }
+      
+        .choix{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            .portion{
+                display: flex;
+                justify-content: space-around;
+                width: 40%;
+                position: relative;
+                left: 63%;
+                p{
+                    margin:0;
+                    font-weight: bold;
+                }
+            }
+            
+            h4{
+                margin-top:20px;
+                margin-bottom:0
+            }
+            .content{
+                display:flex;
+                justify-content: space-between;
+                p{
+                    margin:0;
+                }
+                .descript{
+                    display:flex;
+                    flex-direction: column;
+                    align-items: baseline;
+                }
+                .quantite{
+                    display: flex;
+                    width: 35%;
+                    justify-content: space-around;
+                }
+            }
+
+        }
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
        
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding: 5px;
+        .present_poff{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2{
+                margin-bottom: 60px;
+            }
+        }
+        img{
+            width: 49%;
+            height: 500px;
+            margin:20px;
+            object-fit: cover;
+        }
+        p{
+            text-align: center;
+        }
+        .choix{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            .portion{
+                display: flex;
+                justify-content: space-around;
+                width: 40%;
+                position: relative;
+                left: 63%;
+                p{
+                    margin:0;
+                    font-weight: bold;
+                }
+            }
+            
+            h4{
+                margin-top:20px;
+                margin-bottom:0
+            }
+            .content{
+                display:flex;
+                justify-content: space-between;
+                p{
+                    margin:0;
+                }
+                .descript{
+                    display:flex;
+                    flex-direction: column;
+                    align-items: baseline;
+                    font-style: italic;
+                }
+                .quantite{
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+
+            .commentaire{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 10%;
+            }
+
+        }
+
+    }
+    
+
+    
 }
 
 /*****style mobile*****/
