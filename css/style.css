@@ -96,6 +96,7 @@ main #derriere {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 750px;
 }
 main #derriere img {
   top: 0;
@@ -127,52 +128,21 @@ main #derriere #presentation a {
   color: #39FF14;
   font-weight: bold;
 }
-main .image_galerie {
-  margin: 20px;
-}
-main .image_galerie figcaption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main .image_galerie figcaption p {
-  margin-top: 20px;
-  margin-bottom: -20px;
-  font-size: 30px;
-  font-weight: bold;
-}
-main .contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 8%;
-  margin-top: 20px;
-  border: solid #B51235;
-  border-radius: 20px;
-  background-color: #B51235;
-  box-shadow: 10px 5px 5px #9feab6;
-  color: #9feab6;
-}
-main .contact p {
-  text-align: center;
-  font-size: 20px;
-}
-main .container {
+main #carte {
   width: 70%;
   position: relative;
   top: 50px;
   margin-bottom: 100px;
 }
-main .container img {
+main #carte img {
   object-fit: contain;
   height: 500px;
 }
-main .container h2 {
+main #carte h2 {
   margin: 20px;
   text-align: center;
 }
-main .container .menu {
+main #carte .menu {
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   flex-direction: column;
@@ -180,7 +150,7 @@ main .container .menu {
   border-radius: 20px;
   padding: 20px;
 }
-main .container .menu .choix {
+main #carte .menu .choix {
   display: flex;
   flex-direction: column;
   margin: 5px;
@@ -190,19 +160,19 @@ main .container .menu .choix {
   padding: 10px;
   color: #9feab6;
 }
-main .container .menu .choix .title p {
+main #carte .menu .choix .title p {
   margin: 0;
   font-weight: bold;
 }
-main .container .menu .choix .description {
+main #carte .menu .choix .description {
   display: flex;
   justify-content: space-between;
 }
-main .container .menu .choix .description p {
+main #carte .menu .choix .description p {
   margin: 0;
   font-style: italic;
 }
-main .container .menu .portion {
+main #carte .menu .portion {
   margin: 5px;
   border-radius: 20px;
   width: 30%;
@@ -214,15 +184,15 @@ main .container .menu .portion {
   margin-left: 200px;
   margin-left: 60%;
 }
-main .container .menu .portion .type_portion {
+main #carte .menu .portion .type_portion {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .container .menu .portion .type_portion p {
+main #carte .menu .portion .type_portion p {
   margin: 0;
 }
-main .container .menu .choix_poff {
+main #carte .menu .choix_poff {
   display: flex;
   flex-direction: column;
   margin: 5px;
@@ -232,25 +202,25 @@ main .container .menu .choix_poff {
   color: #9feab6;
   padding: 10px;
 }
-main .container .menu .choix_poff .prix {
+main #carte .menu .choix_poff .prix {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .container .menu .choix_poff .prix p {
+main #carte .menu .choix_poff .prix p {
   margin: 0;
   font-style: italic;
 }
-main .container .menu .choix_poff .prix .choix_portion {
+main #carte .menu .choix_poff .prix .choix_portion {
   display: flex;
   width: 30%;
   justify-content: space-between;
 }
-main .container .menu .choix_poff .title p {
+main #carte .menu .choix_poff .title p {
   margin: 0;
   font-weight: bold;
 }
-main .container .menu .commentaire {
+main #carte .menu .commentaire {
   margin: 5px;
   border-radius: 20px;
   width: 90%;
@@ -260,15 +230,15 @@ main .container .menu .commentaire {
   flex-direction: column;
   align-items: center;
 }
-main .container .menu .commentaire .title p {
+main #carte .menu .commentaire .title p {
   margin: 0;
   font-weight: bold;
 }
-main .container .menu .commentaire .description p {
+main #carte .menu .commentaire .description p {
   margin: 0;
   font-style: italic;
 }
-main .container .menu .choix_enfant {
+main #carte .menu .choix_enfant {
   display: flex;
   flex-direction: column;
   margin: 5px;
@@ -279,32 +249,32 @@ main .container .menu .choix_enfant {
   padding: 10px;
   align-items: center;
 }
-main .container .menu .choix_enfant .title p {
+main #carte .menu .choix_enfant .title p {
   font-weight: bold;
 }
-main .container .menu .choix_enfant .description {
+main #carte .menu .choix_enfant .description {
   display: flex;
   justify-content: space-between;
 }
-main .container .menu .choix_enfant .description p {
+main #carte .menu .choix_enfant .description p {
   margin: 0;
   font-style: italic;
 }
-main .container .menu .choix_enfant .prix {
+main #carte .menu .choix_enfant .prix {
   font-weight: bold;
   margin-top: 40px;
 }
-main .container .carousel-control-prev-icon {
+main #carte .carousel-control-prev-icon {
   position: absolute;
   left: -30%;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
-main .container .carousel-control-next-icon {
+main #carte .carousel-control-next-icon {
   position: absolute;
   right: -30%;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-main .container h3 {
+main #carte h3 {
   text-align: center;
 }
 main .poff {
@@ -363,6 +333,7 @@ main .poff .choix h4 {
 main .poff .choix .content {
   display: flex;
   justify-content: space-between;
+  font-style: italic;
 }
 main .poff .choix .content p {
   margin: 0;
@@ -379,7 +350,6 @@ main .poff .choix .content .quantite {
 }
 main .menu {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   flex-direction: row;
   width: 100%;
@@ -446,13 +416,208 @@ main .menu .choix .commentaire {
   margin-left: 10%;
 }
 
+#enfant {
+  height: 675px;
+}
+#enfant #choix_enfant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#enfant #choix_enfant .choix_enfant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#enfant #choix_enfant .choix_enfant .title {
+  font-weight: bold;
+}
+#enfant #choix_enfant .choix_enfant .description, #enfant #choix_enfant .choix_enfant .prix {
+  font-style: italic;
+}
+
+#photo {
+  height: 900px;
+}
+#photo .container {
+  position: relative;
+  top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 140px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  background-color: #B51235;
+  box-shadow: 10px 5px 5px #9feab6;
+  color: #9feab6;
+  width: 80%;
+}
+#photo .container figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#photo .container figure img {
+  width: 80%;
+}
+#photo .container figure figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#photo .container figure figcaption p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#presse {
+  height: 900px;
+}
+#presse .container {
+  position: relative;
+  top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 140px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  background-color: #B51235;
+  box-shadow: 10px 5px 5px #9feab6;
+  color: #9feab6;
+}
+#presse .container figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#presse .container figure .photos-presse {
+  object-fit: contain;
+}
+#presse .container figure .photos-presse :hover {
+  transform: scale(1.5);
+}
+#presse .container figure figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#presse .container figure figcaption p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#contact-crepe {
+  height: 1550px;
+}
+#contact-crepe .contact {
+  margin-top: -300px;
+}
+#contact-crepe .contact .horaire, #contact-crepe .contact .numero, #contact-crepe .contact .map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border: solid #B51235;
+  border-radius: 20px;
+  background-color: #B51235;
+  box-shadow: 10px 5px 5px #9feab6;
+  color: #9feab6;
+}
+#contact-crepe .contact .horaire p, #contact-crepe .contact .numero p, #contact-crepe .contact .map p {
+  text-align: center;
+  font-size: 20px;
+}
+#contact-crepe .contact .horaire iframe, #contact-crepe .contact .numero iframe, #contact-crepe .contact .map iframe {
+  border-radius: 20px;
+}
+
 /*****style mobile*****/
 @media screen and (min-width: 320px) and (max-width: 750px) {
-  main {
-    height: 800px;
-  }
   main img {
     object-fit: cover;
+  }
+  main #derriere {
+    height: 800px;
+  }
+  main #derriere #presentation {
+    margin-top: 0;
+  }
+  main .menu {
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  main .menu .choix {
+    width: 100%;
+  }
+  main .menu .choix h4 {
+    text-align: center;
+  }
+  main .menu .choix .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .menu .choix .content .quantite {
+    margin-top: 10px;
+  }
+  main .menu img {
+    width: 100%;
+    margin: 0;
+  }
+  main .menu .cacher {
+    display: none;
+  }
+  main .poff {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  main .poff img {
+    width: 100%;
+    margin: 0;
+  }
+  main .poff .choix {
+    width: 100%;
+  }
+  main .poff .choix .portion {
+    width: 80%;
+    left: 10%;
+  }
+  main .poff .choix .portion .type_portion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .poff .choix h4 {
+    text-align: center;
+  }
+  main .poff .choix .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .poff .choix .content .quantite {
+    width: 50%;
+    margin-top: 10px;
+  }
+  main .poff .cacher {
+    display: none;
+  }
+  main .poff .advocaat {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  #photo {
+    height: 800px;
+  }
+  #photo .container {
+    top: 0;
+    width: 100%;
+  }
+  #photo .container figure img {
+    width: 100%;
   }
 }
 footer {
@@ -489,6 +654,9 @@ footer ul .adresse {
 
 /*****style mobile*****/
 @media screen and (min-width: 320px) and (max-width: 750px) {
+  footer {
+    margin-top: 60px;
+  }
   footer ul {
     padding: 0;
   }
