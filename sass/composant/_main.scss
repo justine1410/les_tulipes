@@ -369,10 +369,22 @@ main{
 
 #enfant{
     height: 675px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .img1,.img2{
+        height: 675px;
+        width: 30%;
+        object-fit: cover;
+
+    }
+    
+
     #choix_enfant{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 30%;
         .choix_enfant{
             display: flex;
             flex-direction: column;
@@ -380,10 +392,14 @@ main{
             .title{
                 font-weight: bold;
             }
-            .description, .prix{
+            .description{
                 font-style: italic;;
             }
+            .prix{
+                font-weight: bold;
+            }
         }
+        
     }
 }
 
