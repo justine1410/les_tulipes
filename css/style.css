@@ -433,6 +433,7 @@ main .menu .choix .commentaire {
   flex-direction: column;
   align-items: center;
   width: 30%;
+  justify-content: center;
 }
 #enfant #choix_enfant .choix_enfant {
   display: flex;
@@ -454,11 +455,10 @@ main .menu .choix .commentaire {
 }
 #photo .container {
   position: relative;
-  top: -40px;
+  top: -700px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 140px;
   margin-bottom: 80px;
   border-radius: 20px;
   background-color: #B51235;
@@ -484,55 +484,15 @@ main .menu .choix .commentaire {
   font-weight: bold;
 }
 
-#presse {
-  height: 900px;
-}
-#presse .container {
-  position: relative;
-  top: -100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 140px;
-  margin-bottom: 80px;
-  border-radius: 20px;
-  background-color: #B51235;
-  box-shadow: 10px 5px 5px #9feab6;
-  color: #9feab6;
-}
-#presse .container figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#presse .container figure .photos-presse {
-  object-fit: contain;
-}
-#presse .container figure .photos-presse :hover {
-  transform: scale(1.5);
-}
-#presse .container figure figcaption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#presse .container figure figcaption p {
-  font-size: 30px;
-  font-weight: bold;
-}
-
 #contact-crepe {
-  height: 1550px;
-}
-#contact-crepe .contact {
-  margin-top: -300px;
+  height: 1400px;
 }
 #contact-crepe .contact .horaire, #contact-crepe .contact .numero, #contact-crepe .contact .map {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 50px;
   border: solid #B51235;
   border-radius: 20px;
   background-color: #B51235;

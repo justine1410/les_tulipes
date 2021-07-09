@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo-rouge2.png">    
     <title> Tulipes crêperie hollandaise</title>
 </head>
 <body>
@@ -19,36 +21,32 @@
             </div>
             <div id="poff">
                 <img src="images/galerie_photo/cuisson_poff.jpg" alt="">
-
-
             </div>
         </div>
-
         <nav>
 
             <ul>
                 <li><a href="index.html">ACCUEIL</a></li>
                 <li>NOTRE CARTE
                     <ul>
-                        <li><a href="entree.html">Nos entrées et salades</a></li>
-                        <li><a href="crepe_sale.html">Nos crêpes salée</a></li>
-                        <li><a href="poff.html">Poffertjes</a></li>
-                        <li><a href="crepe_sucre.html">Nos crêpes sucrée</a></li>
-                        <li><a href="dessert.html">Nos dessert</a></li>
-                        <li><a href="enfant.html">Menu enfants</a></li>
+                        <li><a href="entree.html" id="entree">Nos entrées et salades</a></li>
+                        <li><a href="crepe_sale.html" id="crepe_salee">Nos crêpes salée</a></li>
+                        <li><a href="poff.html" id="poffs">Poffertjes</a></li>
+                        <li><a href="crepe_sucre.html" id="crepe_sucree">Nos crêpes sucrée</a></li>
+                        <li><a href="dessert.html" id="dessert">Nos dessert</a></li>
+                        <li><a href="enfant.html" id="menu_enfant">Menu enfants</a></li>
                     </ul>
                 
                 </li>
-                <li><a href="galerie_photos.html">GALERIE PHOTOS</a></li>
-                <li><a href="contact.html">HORAIRE ET CONTACT</a></li>
+                <li><a href="galerie_photos.html" id="galerie_photos">GALERIE PHOTOS</a></li>
+                <li><a href="contact.html" id="contact">HORAIRE ET CONTACT</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="carte">
+        <div id="photos"></div>
        <div id="derriere">
         <img  src="images/crepe_banane.jpg" alt="">
-       
-        
         <div id="presentation">
             <h1>La crêperie Les Tulipes</h1>
             <p>Nous sommes une PANNENKOEKENHUIS ce qui signifie en Hollandais <em>la maison de la crêpe</em><br/>
@@ -69,14 +67,14 @@
 
     </main>
     <footer>
-        
-
         <ul>
             <li class="adresse"> <img src="images/logo-vert2.png" alt=""> Les Tulipes <br/>5 rue de XXVI juin 1944<br/>24200 Sarlat-la-Canéda</li>
             <li><a href="https://www.facebook.com/fidelpatricksarlat"><i class="fab fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/fidelpierre/?hl=fr"><i class="fab fa-instagram-square"></i></a></li>
         </ul>
     </footer>
+
     
+<script src="./js/index.js"></script>
 </body>
 </html>

@@ -385,6 +385,7 @@ main{
         flex-direction: column;
         align-items: center;
         width: 30%;
+        justify-content: center;
         .choix_enfant{
             display: flex;
             flex-direction: column;
@@ -407,11 +408,10 @@ main{
     height: 900px;
     .container{
         position: relative;
-        top: -40px;
+        top: -700px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top:140px;
         margin-bottom: 80px;
         border-radius:20px;
         background-color:$color_primary;
@@ -440,57 +440,17 @@ main{
       
     }
 }
-#presse{
-    height: 900px;
-    .container{
-        position: relative;
-        top: -100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top:140px;
-        margin-bottom: 80px;
-        border-radius:20px;
-        background-color:$color_primary;
-        box-shadow: 10px 5px 5px $color_secondary;
-        color: $color_secondary;
-       figure {
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           .photos-presse{
-               object-fit: contain;
-           }
-           .photos-presse :hover{
-               transform: scale(1.5);
-           }
-           figcaption{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            p{
-                
-                font-size: 30px;
-                font-weight: bold;
-            }
-        }
-       }
-   
-      
-    }
-}
 
 #contact-crepe{
-    height: 1550px;
+    height: 1400px;
  
     .contact{
-        margin-top:-300px;
         .horaire, .numero, .map{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top:20px;
+            margin-top:50px;
             border: solid $color_primary;
             border-radius:20px;
             background-color:$color_primary;
