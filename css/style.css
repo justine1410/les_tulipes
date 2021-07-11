@@ -426,7 +426,7 @@ main .menu .choix .commentaire {
   justify-content: space-between;
 }
 #enfant .img1, #enfant .img2 {
-  height: 675px;
+  height: 697px;
   width: 30%;
   object-fit: cover;
 }
@@ -563,7 +563,7 @@ main .menu .choix .commentaire {
   }
   main #enfant .img1, main #enfant .img2 {
     width: 100%;
-    height: 260px;
+    height: 180px;
   }
   main #enfant #choix_enfant {
     width: 100%;

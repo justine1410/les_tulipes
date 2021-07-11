@@ -2248,7 +2248,7 @@ contact.addEventListener("click", (e)=>{
     affiche.innerHTML =" "
     affiche.insertAdjacentHTML("afterbegin", `
     <div id="derriere">
-        <img  src="images/crepe_banane.jpg" alt="">
+        <img  src="images/crepe_banane.jpg" alt="crêpe à la banane">
         <div id="contact-crepe">
             <div class="contact">
                 <div class="horaire">
@@ -3013,6 +3013,3 @@ indexCrepe.addEventListener("click",(e)=>{
 
     `) 
 })
-
-
-
