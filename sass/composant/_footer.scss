@@ -1,6 +1,6 @@
 footer{
     height: 80px;
-    margin-top:20px;
+    margin-top:12%;
     img{
         height: 80px;
         margin-right: 20px;
@@ -47,3 +47,11 @@ footer{
 
     } 
 }
+
+/* grand ecran */
+@media screen and (min-width:1500px) {
+    footer{
+        margin-top: 8%;
+    }
+ }
+  
