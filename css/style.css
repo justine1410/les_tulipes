@@ -447,7 +447,7 @@ main .menu .choix .commentaire {
 }
 
 #enfant {
-  height: 675px;
+  height: 775px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -460,7 +460,7 @@ main .menu .choix .commentaire {
   }
 }
 #enfant .img1, #enfant .img2 {
-  height: 697px;
+  height: 100%;
   width: 30%;
   object-fit: cover;
 }
@@ -615,9 +615,15 @@ main .menu .choix .commentaire {
     text-align: center;
   }
 }
+/* grand ecran */
+@media screen and (min-width: 1500px) {
+  #presentation {
+    height: 465px;
+    justify-content: center;
+  }
+}
 footer {
   height: 80px;
-  margin-top: 12%;
 }
 footer img {
   height: 80px;
@@ -658,12 +664,6 @@ footer ul .adresse {
   }
   footer ul li a {
     font-size: 20px;
-  }
-}
-/* grand ecran */
-@media screen and (min-width: 1500px) {
-  footer {
-    margin-top: 8%;
   }
 }
 

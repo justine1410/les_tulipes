@@ -407,7 +407,7 @@ main{
 }
 
 #enfant{
-    height: 675px;
+    height: 775px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -424,10 +424,9 @@ main{
 
 
     .img1,.img2{
-        height: 697px;
+        height: 100%;
         width: 30%;
         object-fit: cover;
-
     }
     
 
@@ -611,6 +610,14 @@ main{
     }
     
 }
+
+/* grand ecran */
+@media screen and (min-width:1500px) {
+    #presentation{
+        height: 465px;
+        justify-content: center;
+    }
+ }
 
 
     
