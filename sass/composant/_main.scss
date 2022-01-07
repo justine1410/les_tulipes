@@ -38,8 +38,9 @@ main{
             margin-bottom: 80px;
             width: 80%;
             border-radius:20px;
-            background-color:$color_primary;
+            background-image: radial-gradient($color_primary 0%,  80%, $color_fond);
             color: $color_secondary;
+            animation: animepresentation 2.5s ease forwards;
             p{
                 text-align: center;
                 font-size: 20px;;
@@ -51,8 +52,18 @@ main{
                 color: #39FF14;
                 font-weight: bold;
             }
+            @keyframes animepresentation {
+                0%{
+                    transform: scale(0);
+                    opacity: 0;
+                  }
+                  
+                  100%{
+                      opacity: 1;
+                    transform: scale(1);
+                  }
+              }
         }
-    
     }
     
     #carte{
@@ -60,6 +71,7 @@ main{
         position: relative;
         top:50px;
         margin-bottom: 100px;
+
         img{
             object-fit: contain;
             height: 500px;
@@ -232,6 +244,32 @@ main{
         flex-direction: row;
         width: 100%;
         padding: 5px;
+        transform: scaleX(0);
+        animation: transformTitle 2.5s ease forwards;
+        animation:animepresentation 2.5s ease forwards;
+        transform-origin: 0%;
+    
+        animation: transformTitle 2.5s ease forwards;
+        animation: animepresentation 2.5s ease forwards;
+    
+        @keyframes transformTitle {
+            to{
+                transform: scaleX(1);
+                
+            }
+          
+          }
+    
+          @keyframes animepresentation {
+            0%{
+                opacity: 0;
+              }
+              
+              100%{
+                transform: scale(1);
+              }
+          }
+    
         .present_poff{
             display: flex;
             flex-direction: column;
@@ -305,6 +343,27 @@ main{
         flex-direction: row;
         width: 100%;
         padding: 5px;
+        transform: scaleX(0);
+        animation: transformTitle 2.5s ease forwards;
+        animation:animepresentation 2.5s ease forwards;
+        transform-origin: 100%;
+        @keyframes transformTitle {
+            to{
+                transform: scaleX(0);
+                
+            }
+          
+          }
+
+          @keyframes animepresentation {
+            0%{
+                opacity: 0;
+              }
+              
+              100%{
+                  opacity: 1;
+              }
+          }
         .present_poff{
             display: flex;
             flex-direction: column;
@@ -377,6 +436,32 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    transform: scaleX(0);
+    animation: transformTitle 2.5s ease forwards;
+    animation:animepresentation 2.5s ease forwards;
+    transform-origin: 0%;
+
+    animation: transformTitle 2.5s ease forwards;
+    animation: animepresentation 2.5s ease forwards;
+
+    @keyframes transformTitle {
+        to{
+            transform: scaleX(1);
+            
+        }
+      
+      }
+
+      @keyframes animepresentation {
+        0%{
+            opacity: 0;
+          }
+          
+          100%{
+            transform: scale(1);
+          }
+      }
+
     .img1,.img2{
         height: 697px;
         width: 30%;
@@ -412,17 +497,31 @@ main{
 #contact-crepe{
     width: 80%;
     .contact{
+        
         .horaire, .numero, .map{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             margin-top:50px;
-            border: solid $color_primary;
             border-radius:20px;
             background-color:$color_primary;
-            box-shadow: 10px 5px 5px $color_secondary;
-            color:$color_secondary ;
+            background-image: radial-gradient($color_primary 0%,  80%, $color_fond);
+            color:$color_secondary ;        
+            animation: animepresentation 2.5s ease forwards;
+        
+            @keyframes animepresentation {
+                0%{
+                    transform: scale(0);
+                    opacity: 0;
+                  }
+                  
+                  100%{
+                      opacity: 1;
+                    transform: scale(1);
+                  }
+              }
+        
             p{
                 text-align: center;
                 font-size: 20px;
@@ -431,6 +530,7 @@ main{
                 border-radius: 20px;
                 width: 80%;
                 height: 200px;
+                margin-bottom: 20px;
             }
         }
         

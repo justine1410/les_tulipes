@@ -26,7 +26,7 @@ header #photos #poff img {
 header nav ul {
   display: flex;
   justify-content: space-evenly;
-  background-color: #B51235;
+  background-image: radial-gradient(#B51235 0%, 80%, #5A091B);
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -49,7 +49,6 @@ header nav ul li:hover {
 header nav ul li {
   line-height: 20px;
   float: left;
-  background-color: #B51235;
   border-radius: 20px;
   color: #9feab6;
 }
@@ -120,8 +119,9 @@ main #derriere #presentation {
   margin-bottom: 80px;
   width: 80%;
   border-radius: 20px;
-  background-color: #B51235;
+  background-image: radial-gradient(#B51235 0%, 80%, #5A091B);
   color: #9feab6;
+  animation: animepresentation 2.5s ease forwards;
 }
 main #derriere #presentation p {
   text-align: center;
@@ -133,6 +133,16 @@ main #derriere #presentation span {
 main #derriere #presentation a {
   color: #39FF14;
   font-weight: bold;
+}
+@keyframes animepresentation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 main #carte {
   width: 70%;
@@ -291,6 +301,25 @@ main .poff {
   flex-direction: row;
   width: 100%;
   padding: 5px;
+  transform: scaleX(0);
+  animation: transformTitle 2.5s ease forwards;
+  animation: animepresentation 2.5s ease forwards;
+  transform-origin: 0%;
+  animation: transformTitle 2.5s ease forwards;
+  animation: animepresentation 2.5s ease forwards;
+}
+@keyframes transformTitle {
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes animepresentation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 main .poff .present_poff {
   display: flex;
@@ -360,6 +389,23 @@ main .menu {
   flex-direction: row;
   width: 100%;
   padding: 5px;
+  transform: scaleX(0);
+  animation: transformTitle 2.5s ease forwards;
+  animation: animepresentation 2.5s ease forwards;
+  transform-origin: 100%;
+}
+@keyframes transformTitle {
+  to {
+    transform: scaleX(0);
+  }
+}
+@keyframes animepresentation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 main .menu .present_poff {
   display: flex;
@@ -427,6 +473,25 @@ main .menu .choix .commentaire {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  transform: scaleX(0);
+  animation: transformTitle 2.5s ease forwards;
+  animation: animepresentation 2.5s ease forwards;
+  transform-origin: 0%;
+  animation: transformTitle 2.5s ease forwards;
+  animation: animepresentation 2.5s ease forwards;
+}
+@keyframes transformTitle {
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes animepresentation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 #enfant .img1, #enfant .img2 {
   height: 697px;
@@ -464,11 +529,21 @@ main .menu .choix .commentaire {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  border: solid #B51235;
   border-radius: 20px;
   background-color: #B51235;
-  box-shadow: 10px 5px 5px #9feab6;
+  background-image: radial-gradient(#B51235 0%, 80%, #5A091B);
   color: #9feab6;
+  animation: animepresentation 2.5s ease forwards;
+}
+@keyframes animepresentation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 #contact-crepe .contact .horaire p, #contact-crepe .contact .numero p, #contact-crepe .contact .map p {
   text-align: center;
@@ -478,6 +553,7 @@ main .menu .choix .commentaire {
   border-radius: 20px;
   width: 80%;
   height: 200px;
+  margin-bottom: 20px;
 }
 
 /*****style mobile*****/
@@ -588,7 +664,7 @@ footer ul {
   list-style: none;
   margin-top: 0;
   height: 100px;
-  background-color: #B51235;
+  background-image: radial-gradient(#B51235 0%, 80%, #5A091B);
 }
 footer ul li {
   font-size: 20px;

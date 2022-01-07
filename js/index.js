@@ -95,7 +95,7 @@ entree.addEventListener("click", (e)=>{
     
            
         </div>
-        <img src="images/menu/entree/salade1.jpg" alt="">
+        <img src="images/menu/entree/salade1.png" alt="">
     </div>
     
     <div class="menu">
