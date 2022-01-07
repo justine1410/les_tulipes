@@ -246,11 +246,6 @@ main{
         padding: 5px;
         transform: scaleX(0);
         animation: transformTitle 2.5s ease forwards;
-        animation:animepresentation 2.5s ease forwards;
-        transform-origin: 0%;
-    
-        animation: transformTitle 2.5s ease forwards;
-        animation: animepresentation 2.5s ease forwards;
     
         @keyframes transformTitle {
             to{
@@ -260,15 +255,6 @@ main{
           
           }
     
-          @keyframes animepresentation {
-            0%{
-                opacity: 0;
-              }
-              
-              100%{
-                transform: scale(1);
-              }
-          }
     
         .present_poff{
             display: flex;
@@ -345,25 +331,14 @@ main{
         padding: 5px;
         transform: scaleX(0);
         animation: transformTitle 2.5s ease forwards;
-        animation:animepresentation 2.5s ease forwards;
-        transform-origin: 100%;
         @keyframes transformTitle {
             to{
                 transform: scaleX(0);
                 
             }
           
-          }
+        }
 
-          @keyframes animepresentation {
-            0%{
-                opacity: 0;
-              }
-              
-              100%{
-                  opacity: 1;
-              }
-          }
         .present_poff{
             display: flex;
             flex-direction: column;
@@ -438,11 +413,6 @@ main{
     justify-content: space-between;
     transform: scaleX(0);
     animation: transformTitle 2.5s ease forwards;
-    animation:animepresentation 2.5s ease forwards;
-    transform-origin: 0%;
-
-    animation: transformTitle 2.5s ease forwards;
-    animation: animepresentation 2.5s ease forwards;
 
     @keyframes transformTitle {
         to{
@@ -452,15 +422,6 @@ main{
       
       }
 
-      @keyframes animepresentation {
-        0%{
-            opacity: 0;
-          }
-          
-          100%{
-            transform: scale(1);
-          }
-      }
 
     .img1,.img2{
         height: 697px;
